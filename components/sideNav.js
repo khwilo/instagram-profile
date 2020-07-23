@@ -1,7 +1,17 @@
+import Footer from './footer';
+import Logo from './logo';
+import Nav from './nav';
+import ProfileCard from './profileCard';
+import Stats from './stats';
+
 const SideNav = () => {
   return (
-    <section className='section section--profile'>
-      <h2>SideNav</h2>
+    <section className='section section--sideNav container'>
+      <Logo />
+      <ProfileCard />
+      <Stats />
+      <Nav />
+      <Footer />
     </section>
   );
 };
