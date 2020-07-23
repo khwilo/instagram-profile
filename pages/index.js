@@ -1,14 +1,13 @@
-import Head from 'next/head';
+import Explore from '../components/explore';
+import Main from '../components/main';
+import SideNav from '../components/sideNav';
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Instagram profile</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-
-      <h1>Instagram profile</h1>
+    <div className='wrapper'>
+      <SideNav />
+      <Explore />
+      <Main />
     </div>
   );
 }
