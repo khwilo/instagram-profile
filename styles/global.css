@@ -2,6 +2,7 @@
   --clr-white: #ffffff;
   --clr-black: #000000;
   --clr-gray: #bdbdbd;
+  --clr-border: #eeeeee;
 }
 
 *,
@@ -62,6 +63,10 @@ a {
   font-weight: 700;
 }
 
+.title-text {
+  text-transform: capitalize;
+}
+
 .flow > * + * {
   margin-top: 0.5rem;
 }
@@ -76,7 +81,6 @@ a {
 }
 
 .section--explore {
-  background-color: cornflowerblue;
   flex: 1;
 }
 
