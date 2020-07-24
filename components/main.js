@@ -1,15 +1,20 @@
-const Main = () => {
+import styled from 'styled-components';
+
+import FeaturedStories from './featured';
+import TopNav from './topNav';
+
+export default () => {
   return (
-    <main className='main flex-col'>
-      <div className='main__search'>search</div>
+    <Main className='main flex-col'>
+      <TopNav />
       <section className='main__content flex-col'>
-        <article className='article article--featured'>
-          featured stories
-        </article>
+        <FeaturedStories />
         <article className='article article--photo-feed'>photo feed</article>
       </section>
-    </main>
+    </Main>
   );
 };
 
-export default Main;
+const Main = styled.main`
+  padding: 1em 0 1.5em;
+`;

@@ -55,6 +55,10 @@ a {
   font-family: 'Pacifico', cursive;
 }
 
+.icon {
+  color: var(--clr-gray);
+}
+
 .text-faint {
   color: var(--clr-gray);
 }
@@ -88,18 +92,8 @@ a {
   flex: 3;
 }
 
-.main__search {
-  background-color: forestgreen;
-  flex: 1;
-}
-
 .main__content {
   flex: 10;
-}
-
-.article--featured {
-  background-color: indianred;
-  flex: 2;
 }
 
 .article--photo-feed {
