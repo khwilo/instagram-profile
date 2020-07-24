@@ -9,10 +9,10 @@ import PersonDetails from './personDetails';
 export default () => {
   return (
     <Explore className='section section--explore'>
-      <TopNav>
-        <FontAwesomeIcon icon={faArrowLeft} className='topNav__icon' />
-        <p className='topNav__title'>back to people</p>
-      </TopNav>
+      <BackNav>
+        <FontAwesomeIcon icon={faArrowLeft} className='backNav__icon' />
+        <p className='backNav__title'>back to people</p>
+      </BackNav>
       <Person />
       <PersonDetails />
     </Explore>
@@ -20,19 +20,19 @@ export default () => {
 };
 
 const Explore = styled.div`
-  padding: 1em 2em;
+  padding: 1em 2em 1.5em;
   border-left: 1px solid var(--clr-border);
   border-right: 1px solid var(--clr-border);
 `;
 
-const TopNav = styled.div`
+const BackNav = styled.div`
   display: flex;
   align-items: center;
-  .topNav__icon {
+  .backNav__icon {
     color: var(--clr-gray);
   }
 
-  .topNav__title {
+  .backNav__title {
     margin-left: 1rem;
     font-weight: 700;
   }
