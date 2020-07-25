@@ -43,17 +43,17 @@ const FeaturedImages = styled.div`
 `;
 
 const FeaturedImage = styled.div`
+  position: relative;
   background-color: gray;
   padding: 0;
   margin: 0;
   display: flex;
   width: 16%;
-
-  position: relative;
+  opacity: 0.65;
 
   img {
-    opacity: 0.5;
     object-fit: cover;
+    border-radius: 6px;
   }
 
   .caption {
