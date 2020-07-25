@@ -34,7 +34,7 @@ const Person = styled.section`
 
   .person__image {
     border-radius: 15px;
-    height: 250px;
+    height: 270px;
     width: 100%;
     object-fit: cover;
     object-position: center center;

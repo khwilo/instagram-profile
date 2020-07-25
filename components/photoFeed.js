@@ -26,7 +26,7 @@ const PhotoFeedImages = styled.div`
   margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  gap: 1em;
+  gap: 2em;
 
   img {
     width: 300px;
