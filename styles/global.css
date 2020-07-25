@@ -71,6 +71,11 @@ a {
   text-transform: capitalize;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
 .flow > * + * {
   margin-top: 0.5rem;
 }
@@ -89,14 +94,5 @@ a {
 }
 
 .main {
-  flex: 3;
-}
-
-.main__content {
-  flex: 10;
-}
-
-.article--photo-feed {
-  background-color: cornsilk;
   flex: 3;
 }

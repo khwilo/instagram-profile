@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import FeaturedStories from './featured';
+import PhotoFeed from './photoFeed';
 import TopNav from './topNav';
 
 export default () => {
@@ -9,7 +10,7 @@ export default () => {
       <TopNav />
       <section className='main__content flex-col'>
         <FeaturedStories />
-        <article className='article article--photo-feed'>photo feed</article>
+        <PhotoFeed />
       </section>
     </Main>
   );

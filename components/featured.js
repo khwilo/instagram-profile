@@ -1,17 +1,10 @@
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import styled from 'styled-components';
+
+import SectionTop from './sectionTop';
 
 export default () => (
   <Featured className='featured'>
-    <div className='featured__top'>
-      <h2 className='featured__title'>Featured Stories</h2>
-      <div className='featured__select'>
-        <p className='featured__choice'>All Time</p>
-        <FontAwesomeIcon icon={faAngleDown} className='icon icon--down' />
-      </div>
-    </div>
+    <SectionTop title='Featured Stories' choice='All Time' />
     <FeaturedImages>
       <FeaturedImage className='featured-image'>
         <img src='images/boat.jpg' alt='' />
@@ -39,27 +32,6 @@ export default () => (
 
 const Featured = styled.article`
   padding: 1.5em 1.5em 1.5em 2em;
-
-  .featured__top,
-  .featured__select {
-    display: flex;
-    align-items: center;
-  }
-
-  .featured__title {
-    text-transform: capitalize;
-  }
-
-  .featured__select {
-    padding: 0.2em 0.6em;
-    border-radius: 10px;
-    background-color: #f5f5f5;
-    margin: 0 2rem 0 auto;
-  }
-
-  .icon--down {
-    margin-left: 1rem;
-  }
 `;
 
 const FeaturedImages = styled.div`
