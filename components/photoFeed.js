@@ -17,6 +17,7 @@ export default () => (
 );
 
 const PhotoFeed = styled.article`
+  margin-top: 4rem;
   padding: 1.5em 1.5em 1.5em 2em;
 `;
 

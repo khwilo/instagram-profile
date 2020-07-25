@@ -19,6 +19,9 @@ const Footer = styled.footer`
   padding: 0 1em;
   margin-top: 5rem;
 
+  position: absolute;
+  bottom: 40px;
+
   .icon {
     background-color: #f5f5f5;
     color: var(--clr-gray);

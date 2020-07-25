@@ -87,6 +87,7 @@ a {
 
 .section--sideNav {
   flex: 1;
+  position: relative;
 }
 
 .section--explore {

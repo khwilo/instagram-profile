@@ -28,13 +28,13 @@ export default () => (
 );
 
 const Person = styled.section`
-  padding: 3em 0 1.5em;
+  padding: 2em 0 1.5em;
   margin-bottom: 1rem;
   border-bottom: 1px solid var(--clr-border);
 
   .person__image {
     border-radius: 15px;
-    height: 300px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     object-position: center center;
